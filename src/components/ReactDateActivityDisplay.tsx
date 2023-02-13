@@ -62,11 +62,8 @@ const DateStatusDisplay: FC<AppTypes> = ({
   const dayOffset = new Date(displayYear, displayMonth, 1).getDay()
   const weeksInMonth = Math.ceil((daysInMonth + dayOffset) / 7)
 
-  const weeks: Week[] = useMemo(
-    () => createWeeks(weeksInMonth, dayOffset, daysInMonth, dateValues),
-    [dateValues, dayOffset, daysInMonth, weeksInMonth],
-  )
-  console.log(weeks)
+  const weeks: Week[] = createWeeks(weeksInMonth, dayOffset, daysInMonth, dateValues)
+
   return (
     <Box className='DateStatusDisplay'>
       {weeks.map((week, i) => (
