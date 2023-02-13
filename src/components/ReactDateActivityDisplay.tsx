@@ -1,4 +1,4 @@
-import React, { FC, useMemo } from 'react'
+import React, { FC } from 'react'
 import { Box } from '@mui/material'
 import { days } from './consts'
 import { DisplayMonth } from './types'
