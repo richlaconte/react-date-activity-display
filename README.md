@@ -2,7 +2,8 @@
 
 ## Dev setup
 ### View the example app:
-- `git clone`
+- `git clone https://github.com/richlaconte/react-date-activity-display.git`
+- `cd react-date-activity-display`
 - `cd example`
 - `npm i`
 - `npm start`
