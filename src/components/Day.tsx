@@ -2,41 +2,9 @@ import React, { FC } from 'react'
 import { Box, Tooltip } from '@mui/material'
 import { tileColors } from './types'
 import { months } from './consts'
+import { DayType, colors } from './types'
 
-type DayType = {
-  day: {
-    number: number | undefined
-    day: string | undefined
-    count: number | undefined
-  }
-  tooltip?: {
-    placement?:
-      | 'top'
-      | 'bottom-end'
-      | 'bottom-start'
-      | 'bottom'
-      | 'left-end'
-      | 'left-start'
-      | 'left'
-      | 'right-end'
-      | 'right-start'
-      | 'right'
-      | 'top-end'
-      | 'top-start'
-      | undefined
-    description?: string | undefined
-    monthDisplay?: 'short' | 'long' | undefined
-  }
-  tileColors?: tileColors
-}
 
-const colors = {
-  undefined: '#D3D3D3',
-  empty: '#899499',
-  lowGoal: '#ccffcc',
-  midGoal: '#66ff66',
-  highGoal: '#00e500',
-}
 
 const getColor = (
   count: number | undefined,
