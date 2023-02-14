@@ -27,6 +27,8 @@ const MyComponent = () => {
 }
 ```
 
+![Example image](./react-date-activity-display.png)
+
 ## Contributing
 ### View the example app:
 - `git clone https://github.com/richlaconte/react-date-activity-display.git`
