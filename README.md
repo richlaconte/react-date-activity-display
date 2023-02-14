@@ -1,5 +1,7 @@
 # React Date Activity Display
 
+![Example image](./react-date-activity-display.png)
+
 ## Usage
 Install:
 `npm i react-date-activity-display`
@@ -26,8 +28,6 @@ const MyComponent = () => {
   ) 
 }
 ```
-
-![Example image](./react-date-activity-display.png)
 
 ## Contributing
 ### View the example app:
